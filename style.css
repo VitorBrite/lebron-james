@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.imagem{
+    border-radius: 50%;
+    width: 30%;
+}
+#ben-vindo{
+    position: absolute;
+    bottom:0 ;
+    display: table;
+    width:100% ;
+    height:100% ;
+    background:linear-gradient(rgb(255, 123, 15) 0%,rgb(238, 203, 4) 100%) ;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#nome{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family:monospace ;
+}
+#bio{
+    font-family: 'Lobster', cursive;
+    padding: 50px;
+    font-size: 30px;
+}
+.linha{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.dv{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    position: fixed;
+    top:0px;
+    list-style: none;
+    z-index: 10;
+    cursor: pointer;
+padding-left: 7%;
+    background-color: darkgrey;
+    width: 100%;
+    margin-top: 0;
+    text-align:right;
+
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left:9px ;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links a{
+    color: rgb(77, 31, 129);
+}
+#artigos a{
+    font-size: 25px;
+}
+.rede_sociais h3 {
+    display: inline;
+}
